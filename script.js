@@ -7,8 +7,11 @@ function addTask() {
     if(inputBox.value=="") {  
 alert("plans can not be blank")
 } else{
-   let li = document.createElement("li");
-   li.innerHtml = inputBox.value;
-   listContainer.appendChild(li);
+
 }
 }
+
+
+// let li = document.createElement("li");
+// li.innerHtml = inputBox.value;
+// listContainer.appendChild(li);
